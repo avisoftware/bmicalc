@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-21 08:52+0300\n"
+"POT-Creation-Date: 2015-07-21 09:05+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../app/Main.qml:27
-#: /home/avi/qt/ubuntu-touch/build-bmicalc-Desktop-Default/po/bmiCalc.desktop.in.h:1
+#: /home/avi/qt/ubuntu-touch/build-bmicalc-CleanI386_GCC_i386_ubuntu_sdk_15_04_vivid-Default/po/bmiCalc.desktop.in.h:1
 msgid "BMI Calculator"
 msgstr ""
 
@@ -86,7 +86,7 @@ msgid ""
 "Body_mass_index'>(See: Wikipedia)</a>"
 msgstr ""
 
-#: /home/avi/qt/ubuntu-touch/build-bmicalc-Desktop-Default/po/bmiCalc.desktop.in.h:2
+#: /home/avi/qt/ubuntu-touch/build-bmicalc-CleanI386_GCC_i386_ubuntu_sdk_15_04_vivid-Default/po/bmiCalc.desktop.in.h:2
 msgid ""
 "Calculate your BMI (Body Mass Index). BMI is a good way to check if you're "
 "underweight, in good weight or overweight."

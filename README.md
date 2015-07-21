@@ -1,4 +1,4 @@
-#red-alert
+#BMI Calculator
 ![GitHub release](https://img.shields.io/github/tag/avi-software/bmicalc.svg?style=flat-square)
 ![GitHub stars](https://img.shields.io/github/stars/avi-software/bmicalc.svg?style=flat-square)
 ![GitHub issues](https://img.shields.io/github/issues/avi-software/bmicalc.svg?style=flat-square)
