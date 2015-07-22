@@ -5,7 +5,6 @@ Item {
     width: 60
     height: 60
     clip : true
-    // The index of corner for the triangle to be attached
     property alias color : rect.color
     property string borderColor :"#fff"
 
