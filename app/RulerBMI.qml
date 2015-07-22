@@ -223,7 +223,7 @@ arrBmi = [girl][age 2-20][underweight][normal][obese]
 
     }
     function drawVerySeverelyUnderweight(){
-        bmiS.text= "Very severely\nunderweight";
+        bmiS.text= i18n.tr("Very severely\nunderweight");
         bmiIcon.backgroundColor=UbuntuColors.red;
         triangle.color =UbuntuColors.red;
         bmiS.color="#fff";
@@ -232,7 +232,7 @@ arrBmi = [girl][age 2-20][underweight][normal][obese]
     }
 
     function drawSeverelyUnderweight(){
-        bmiS.text= "Severely\nUnderweight"
+        bmiS.text= i18n.tr("Severely\nUnderweight")
         bmiIcon.backgroundColor=UbuntuColors.red
         triangle.color =UbuntuColors.red;
         bmiS.color="#fff";
@@ -241,7 +241,7 @@ arrBmi = [girl][age 2-20][underweight][normal][obese]
     }
 
     function drawUnderweight(){
-        bmiS.text= "Underweight"
+        bmiS.text= i18n.tr("Underweight")
         bmiIcon.backgroundColor=UbuntuColors.orange
         bmiS.color="#fff";
         bmiR.color="#fff";
@@ -250,7 +250,7 @@ arrBmi = [girl][age 2-20][underweight][normal][obese]
     }
 
     function drawNormal(){
-        bmiS.text= "Normal"
+        bmiS.text= i18n.tr("Normal")
         bmiIcon.backgroundColor=UbuntuColors.green
         triangle.color =UbuntuColors.green
         bmiS.color="#fff";
@@ -259,7 +259,7 @@ arrBmi = [girl][age 2-20][underweight][normal][obese]
     }
 
     function drawOverweight(){
-        bmiS.text= "Overweight"
+        bmiS.text= i18n.tr("Overweight")
         bmiIcon.backgroundColor="yellow"
         triangle.color ="yellow";
         bmiS.color=UbuntuColors.red
@@ -268,13 +268,13 @@ arrBmi = [girl][age 2-20][underweight][normal][obese]
     }
     function drawObese(c){
         if (c===1){
-            bmiS.text= "Obese\nClass I"
+            bmiS.text= i18n.tr("Obese\nClass I")
         }else if(c===2){
-            bmiS.text= "Obese\nClass II"
+            bmiS.text= i18n.tr("Obese\nClass II")
         }else if(c===3){
-            bmiS.text= "Obese\nClass III"
+            bmiS.text= i18n.tr("Obese\nClass III")
         }else{
-            bmiS.text= "Obese"
+            bmiS.text= i18n.tr("Obese")
         }
         bmiIcon.backgroundColor=UbuntuColors.red
         triangle.color =UbuntuColors.red;

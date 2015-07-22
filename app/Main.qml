@@ -8,6 +8,9 @@ MainView {
     // Removes the old toolbar and enables new features of the new header.
     useDeprecatedToolbar: false
 
+    LayoutMirroring.enabled: Qt.locale().textDirection == Qt.RightToLeft
+    LayoutMirroring.childrenInherit: true
+
     width: units.gu(40)
     height: units.gu(75)
     backgroundColor: "#fff"
@@ -40,6 +43,8 @@ MainView {
                 infoAction
             ]
         }
+        LayoutMirroring.enabled: false
+
         Column {
             spacing: units.gu(1)
             anchors {
@@ -158,6 +163,8 @@ MainView {
         head{
             foregroundColor:"#fff";
         }
+        LayoutMirroring.enabled: false
+
         Item{
             id:i
             anchors.horizontalCenter: parent.horizontalCenter

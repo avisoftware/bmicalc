@@ -1,66 +1,66 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# avi <avisoftware123@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-22 09:12+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-07-22 09:02+0300\n"
+"PO-Revision-Date: 2015-07-22 09:23+0300\n"
+"Last-Translator: avi <avisoftware123@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #: ../app/Main.qml:30
 #: /home/avi/qt/ubuntu-touch/build-bmicalc-CleanI386_GCC_i386_ubuntu_sdk_15_04_vivid-Default/po/bmiCalc.desktop.in.h:1
 msgid "BMI Calculator"
-msgstr ""
+msgstr "מחשבון BMI"
 
 #: ../app/Main.qml:35
 msgid "Information"
-msgstr ""
+msgstr "מידע"
 
 #: ../app/Main.qml:60
 msgid "Age"
-msgstr ""
+msgstr "גיל"
 
 #: ../app/Main.qml:78
 msgid "Male"
-msgstr ""
+msgstr "זכר"
 
 #: ../app/Main.qml:79
 msgid "Female"
-msgstr ""
+msgstr "נקבה"
 
 #: ../app/Main.qml:87
 msgid "Height"
-msgstr ""
+msgstr "גובה"
 
 #: ../app/Main.qml:105
 msgid "KG/CM"
-msgstr ""
+msgstr "קג/סמ"
 
 #: ../app/Main.qml:106
 msgid "IN/LB"
-msgstr ""
+msgstr "אינ/ליב"
 
 #: ../app/Main.qml:113
 msgid "Weight"
-msgstr ""
+msgstr "משקל"
 
 #: ../app/Main.qml:129
 msgid "Calculate"
-msgstr ""
+msgstr "חשב"
 
 #: ../app/Main.qml:162
 msgid "BMI Information"
-msgstr ""
+msgstr "מידע BMI"
 
 #: ../app/Main.qml:178
 msgid ""
@@ -85,55 +85,79 @@ msgid ""
 "                             <br><a href='https://en.wikipedia.org/wiki/"
 "Body_mass_index'>(See: Wikipedia)</a>"
 msgstr ""
+"<h3>מדד מסת גוף (BMI)</h3>\n"
+"                             מדד מסת גוף (BMI) הוא מדד הנותן ערך שנגזר ממסת "
+"הגוף (משקל) ומהגובה של האדם.\n"
+"                        ה BMI זה נסיון לכמת את מסת הרקמה (שריר, שומן, ועצם) "
+"באדם.\n"
+"                             ואז לסווג את האדם כתת משקל, משקל תקין, עודף "
+"משקל, או משקל יתר, בהתבסס על הערך הזה.\n"
+"                           \n"
+"                             <h4>BMI בילדים (גיל 2-20)</h4>\n"
+"                             BMI משמש שונה עבור ילדים. הערך מחושב באותו דרך "
+"כמו עבור מבוגרים,\n"
+"                             אבל אז משווים לערכים אופייניים עבור ילדים אחרים "
+"מאותו גיל. במקום להשוות כנגד טווח ערכים קבוע עבור תת משקל ועודף משקל,\n"
+"                             הBMI מושווה כנגד האחוזון של הילדים מאותו גיל "
+"ומאותו מגדר.\n"
+"                             <br><a href='https://he.wikipedia.org/wiki/%D7%9"
+"E%D7%93%D7%93_%D7%9E%D7%A1%D7%AA_%D7%92%D7%95%D7%A3'>(ראה: וויקיפדיה)</a>"
 
 #: ../app/RulerBMI.qml:226
 msgid ""
 "Very severely\n"
 "underweight"
 msgstr ""
+"תת משקל\nחמור מאוד"
 
 #: ../app/RulerBMI.qml:235
 msgid ""
 "Severely\n"
 "Underweight"
 msgstr ""
+"תת משקל\nחמור"
 
 #: ../app/RulerBMI.qml:244
 msgid "Underweight"
-msgstr ""
+msgstr "תת משקל"
 
 #: ../app/RulerBMI.qml:253
 msgid "Normal"
-msgstr ""
+msgstr "תקין"
 
 #: ../app/RulerBMI.qml:262
 msgid "Overweight"
-msgstr ""
+msgstr "עודף משקל"
 
 #: ../app/RulerBMI.qml:271
 msgid ""
 "Obese\n"
 "Class I"
 msgstr ""
+"השמנת יתר\nדרגה 1"
 
 #: ../app/RulerBMI.qml:273
 msgid ""
 "Obese\n"
 "Class II"
 msgstr ""
+"השמנת יתר\nדרגה 2"
 
 #: ../app/RulerBMI.qml:275
 msgid ""
 "Obese\n"
 "Class III"
 msgstr ""
+"השמנת יתר\nדרגה 3"
 
 #: ../app/RulerBMI.qml:277
 msgid "Obese"
-msgstr ""
+msgstr "השמנת יתר"
 
 #: /home/avi/qt/ubuntu-touch/build-bmicalc-CleanI386_GCC_i386_ubuntu_sdk_15_04_vivid-Default/po/bmiCalc.desktop.in.h:2
 msgid ""
 "Calculate your BMI (Body Mass Index). BMI is a good way to check if you're "
 "underweight, in good weight or overweight."
 msgstr ""
+"מחשב את ה BMI שלך (מדד מסת גוף). BMI  זה דרך טובה לבדוק אם את\\ה בתת משקל, "
+"במשקל תקין או בעודף משקל."
