@@ -139,10 +139,10 @@ Item {
         arrBmi[1]=b;
         if(arrBmi[0]>20){
             line1.gradient=adultGradient;
-            setAdultValues(b);
+            setAdultValues(Number(b));
         }else{
             line1.gradient=kidsGradient;
-            setKidsValue(b,arrBmi[0],Number(arrBmi[2]))
+            setKidsValue(Number(b),arrBmi[0],Number(arrBmi[2]))
         }
     }
     function setKidsValue(a,age,gender){
