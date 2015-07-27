@@ -1,12 +1,12 @@
 {
     "name": "@APP_ID@",
-    "description": "Calculate your BMI (Body Mass Index). BMI is a good way to check if you're underweight, in good weight or overweight. ",
+    "description": "Weight Calculator, including BMI Calculator, and Body Fat percentage",
     "architecture": "@CLICK_ARCH@",
     "title": "@APP_NAME@",
     "hooks": {
-        "bmiCalc": {
-            "apparmor": "bmiCalc.apparmor",
-            "desktop": "bmiCalc.desktop"
+        "weightCalc": {
+            "apparmor": "weightCalc.apparmor",
+            "desktop": "weightCalc.desktop"
         }
     },
     "version": "0.1",

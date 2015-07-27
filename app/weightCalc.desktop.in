@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=Weight Calculators
+_Comment=Weight Calculators, including BMI Calculator, and Body Fat percentage.
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Show-Header=true

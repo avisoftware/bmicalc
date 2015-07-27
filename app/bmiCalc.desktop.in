@@ -1,9 +1,0 @@
-[Desktop Entry]
-_Name=BMI Calculator
-_Comment=Calculate your BMI (Body Mass Index). BMI is a good way to check if you're underweight, in good weight or overweight.
-Exec=@EXEC@
-Icon=@ICON@
-Terminal=false
-Type=Application
-X-Ubuntu-Touch=true
-X-Ubuntu-Splash-Show-Header=true
