@@ -297,12 +297,15 @@ Page {
                 }
                 bodyFatIcon.color = textColor;
                 bodyFatIcon.backgroundColor=color;
+                bodyFatIcon.visible=true;
 
                 fatMassIcon.color = textColor;
                 fatMassIcon.backgroundColor=color;
+                fatMassIcon.visible=true;
 
                 leanMassIcon.color = textColor;
                 leanMassIcon.backgroundColor=color;
+                leanMassIcon.visible=true;
             }
         }
         Row{
@@ -315,6 +318,7 @@ Page {
                 height: units.gu(10)
                 backgroundColor: Theme.palette.normal.foreground
                 radius: "small"
+                visible: false;
                 Column{
                     anchors.centerIn: parent
                     Label {
@@ -340,6 +344,7 @@ Page {
                         color: Theme.palette.normal.foregroundText
                     }
                 }
+                Behavior on visible {NumberAnimation{properties: "opacity";from:0;to:1;easing.type: Easing.InOutQuad; duration: 400 }}
             }
             UbuntuShape {
                 id: fatMassIcon
@@ -347,6 +352,7 @@ Page {
                 height: units.gu(10)
                 backgroundColor: Theme.palette.normal.foreground
                 radius: "small"
+                visible: false;
                 Column{
                     anchors.centerIn: parent
                     Label {
@@ -364,6 +370,7 @@ Page {
                         color: Theme.palette.normal.foregroundText
                     }
                 }
+                Behavior on visible {NumberAnimation{properties: "opacity";from:0;to:1;easing.type: Easing.InOutQuad; duration: 400 }}
             }
             UbuntuShape {
                 id: leanMassIcon
@@ -371,6 +378,7 @@ Page {
                 height: units.gu(10)
                 backgroundColor: Theme.palette.normal.foreground
                 radius: "small"
+                visible: false;
                 Column{
                     anchors.centerIn: parent
                     Label {
@@ -388,8 +396,8 @@ Page {
                         color: Theme.palette.normal.foregroundText
                     }
                 }
+                Behavior on visible {NumberAnimation{properties: "opacity";from:0;to:1;easing.type: Easing.InOutQuad; duration: 400 }}
             }
-
         }
     }
 }

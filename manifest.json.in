@@ -1,15 +1,15 @@
 {
     "name": "@APP_ID@",
-    "description": "Weight Calculator, including BMI Calculator, and Body Fat percentage",
+    "description": "Body Status is a weight calculators, including BMI Calculator, and Body Fat percentage.",
     "architecture": "@CLICK_ARCH@",
     "title": "@APP_NAME@",
     "hooks": {
-        "weightCalc": {
-            "apparmor": "weightCalc.apparmor",
-            "desktop": "weightCalc.desktop"
+        "bmiCalc": {
+            "apparmor": "bmiCalc.apparmor",
+            "desktop": "bmiCalc.desktop"
         }
     },
-    "version": "0.1",
+    "version": "0.2",
     "maintainer": "Avi Software <avisoftware123@gmail.com>",
     "framework": "ubuntu-sdk-14.04"
 }

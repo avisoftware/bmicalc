@@ -1,6 +1,6 @@
 [Desktop Entry]
-_Name=Weight Calculators
-_Comment=Weight Calculators, including BMI Calculator, and Body Fat percentage.
+_Name=Body Status
+_Comment=Body Status is a weight calculators, including BMI Calculator, and Body Fat percentage.
 Exec=@EXEC@
 Icon=@ICON@
 Terminal=false

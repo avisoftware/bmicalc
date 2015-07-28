@@ -3,7 +3,7 @@ import Ubuntu.Components 1.1
 
 MainView {
     objectName: "mainView"
-    applicationName: "weightcalc.avisoftware"
+    applicationName: "bmicalc.avisoftware"
     //automaticOrientation: true
     // Removes the old toolbar and enables new features of the new header.
     useDeprecatedToolbar: false
