@@ -1,0 +1,270 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-28 10:01+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../app/BmiView.qml:5 ../app/Main.qml:58
+msgid "BMI Calculator"
+msgstr "Calculateur d'IMC"
+
+#: ../app/BmiView.qml:10 ../app/BodyFatUsNavyView.qml:13 ../app/Main.qml:77
+msgid "Information"
+msgstr "Informations"
+
+#: ../app/BmiView.qml:37
+msgid "Age"
+msgstr "Âge"
+
+#: ../app/BmiView.qml:55 ../app/BodyFatUsNavyView.qml:82
+msgid "Male"
+msgstr "Homme"
+
+#: ../app/BmiView.qml:56 ../app/BodyFatUsNavyView.qml:83
+msgid "Female"
+msgstr "Femme"
+
+#: ../app/BmiView.qml:64 ../app/BodyFatUsNavyView.qml:38
+msgid "Height"
+msgstr "Taille"
+
+#: ../app/BmiView.qml:82 ../app/BodyFatUsNavyView.qml:56
+msgid "KG/CM"
+msgstr "KG/CM"
+
+#: ../app/BmiView.qml:83 ../app/BodyFatUsNavyView.qml:57
+msgid "IN/LB"
+msgstr "PO/LB"
+
+#: ../app/BmiView.qml:90 ../app/BodyFatUsNavyView.qml:64
+msgid "Weight"
+msgstr "Masse"
+
+#: ../app/BmiView.qml:106 ../app/BodyFatUsNavyView.qml:234
+msgid "Calculate"
+msgstr "Calculer"
+
+#: ../app/BodyFatUsNavyView.qml:7
+msgid "Body Fat Calculator"
+msgstr "Calculateur de masse adipeuse"
+
+#: ../app/BodyFatUsNavyView.qml:90
+msgid "Waist"
+msgstr "Taille"
+
+#: ../app/BodyFatUsNavyView.qml:127
+msgid ""
+"Take the waist measurement\n"
+"at its narrowest point"
+msgstr ""
+"Prenez la mensuration de la taille\n"
+"à son point le plus étroit"
+
+#: ../app/BodyFatUsNavyView.qml:128
+msgid ""
+"Take the waist measurement\n"
+"at the navel"
+msgstr ""
+"Prenez la mensuration de la taille\n"
+"au niveau du nombril"
+
+#: ../app/BodyFatUsNavyView.qml:140
+msgid "Hip"
+msgstr "Hanche"
+
+#: ../app/BodyFatUsNavyView.qml:177
+msgid ""
+"Take the hip measurement\n"
+"at its widest point"
+msgstr ""
+"Prenez la mensuration de la hanche\n"
+"à son point le plus large"
+
+#: ../app/BodyFatUsNavyView.qml:188
+msgid "Neck"
+msgstr "Cou"
+
+#: ../app/BodyFatUsNavyView.qml:225
+msgid ""
+"Take the neck measurement\n"
+"at its narrowest point.\n"
+"and with the tape sloping slightly\n"
+"downward to the front."
+msgstr ""
+"Prenez la mensuration du cou\n"
+"à son point le plus étroit\n"
+"et avec le ruban légèrement incliné\n"
+"en avant vers le bas."
+
+#: ../app/BodyFatUsNavyView.qml:273
+msgid "Essential Fat"
+msgstr "Graisse essentielle (primaire)"
+
+#: ../app/BodyFatUsNavyView.qml:273
+msgid "Athletic"
+msgstr "Athlétique"
+
+#: ../app/BodyFatUsNavyView.qml:274
+msgid "Fit"
+msgstr "En forme"
+
+#: ../app/BodyFatUsNavyView.qml:274
+msgid "Acceptable"
+msgstr "Acceptable"
+
+#: ../app/BodyFatUsNavyView.qml:274 ../app/RulerBMI.qml:277
+msgid "Obese"
+msgstr "Obèse"
+
+#: ../app/BodyFatUsNavyView.qml:327 ../app/Main.qml:66
+msgid "Body Fat %"
+msgstr "Pourcentage de masse adipeuse"
+
+#: ../app/BodyFatUsNavyView.qml:361
+msgid "Fat Mass"
+msgstr "Masse adipeuse"
+
+#: ../app/BodyFatUsNavyView.qml:387
+msgid "Lean Mass"
+msgstr "Masse maigre"
+
+#: ../app/InformationView.qml:26
+msgid ""
+"<h3>body mass index (BMI)</h3>\n"
+"                             The body mass index (BMI), is a value derived "
+"from the mass (weight) and height of an individual.\n"
+"                             The BMI is an attempt to quantify the amount of "
+"tissue mass (muscle, fat, and bone) in an individual,\n"
+"                             and then categorize that person as "
+"underweight,\n"
+"                             normal weight, overweight, or obese based on "
+"that value.\n"
+"                             <h4>BMI in Children (aged 2 to 20)</h4>\n"
+"                             BMI is used differently for children. It is "
+"calculated in the same way as for adults,\n"
+"                             but then compared to typical values for other "
+"children of the same age.\n"
+"                             Instead of comparison against fixed thresholds "
+"for underweight and overweight,\n"
+"                             the BMI is compared against the percentile for "
+"children of the same gender and age.\n"
+"                             <br><a href='https://en.wikipedia.org/wiki/"
+"Body_mass_index'>(See: Wikipedia)</a>"
+msgstr ""
+"<h3>Indice de masse corporelle (IMC)</h3>\n"
+"                             L'indice de masse corporelle (IMC) est une valeur obtenue "
+"à partir de la masse (poids) et de la taille d'un individu.\n"
+"                             L'IMC est une tentative de quantification de la masse "
+"tissulaire (muscle, graisse et os) chez un individu,\n"
+"                             puis une catégorisation de cette personne en "
+"insuffisance pondérale,\n"
+"                             en poids normal, en surcharge pondérale ou en obésité en fonction "
+"de cette valeur.\n"
+"                             <h4>IMC chez les enfants (âgés de 2 à 20 ans)</h4>\n"
+"                             L'IMC est utilisé différemment pour les enfants. Il est "
+"calculé de la même manière que chez les adultes,\n"
+"                             mais est ensuite comparé aux valeurs classiques des autres "
+"enfants du même âge.\n"
+"                             À la place d'une comparaison avec des seuils fixes "
+"d'insuffisance ou de surcharge pondérale,\n"
+"                             l'IMC est comparé avec le pourcentile des "
+"enfants du même sexe et du même âge.\n"
+"                             <br><a href='https://fr.wikipedia.org/wiki/"
+"Indice_de_masse_corporelle'>(Voir[nbsp]: Wikipédia)</a>"
+
+#: ../app/InformationView.qml:37
+msgid ""
+"<h3>Body Fat %</h3>\n"
+"                             This Body Fat Calculator uses the U.S. Navy "
+"fitness formula to get an estimated measuring of body fat percent.\n"
+"                             All you need is a tape measure.\n"
+"                             <br><b>NOTICE:</b> This is not represent a "
+"measure of an accurate <b>Body Fat</b>. It is just an estimate.\n"
+"                             <br><a href='https://en.wikipedia.org/wiki/"
+"Body_fat_percentage'>(See also: Wikipedia)</a>"
+msgstr ""
+"<h3>Pourcentage de masse adipeuse</h3>\n"
+"                             Ce calculateur de masse adipeuse utilise la formule de "
+"santé de l'US Navy pour obtenir une estimation de la mesure du pourcentage de masse adipeuse.\n"
+"                             Tout ce dont vous avez besoin est d'un ruban de mesure.\n"
+"                             <br><b>ATTENTION[nbsp]:</b> Ceci ne représente pas une mesure "
+"précise de la <b>masse adipeuse</b>. Il s'agit juste d'une estimation.\n"
+"                             <br><a href='https://fr.wikipedia.org/wiki/"
+"Indice_de_masse_corporelle'>(Voir également[nbsp]: Wikipédia)</a>"
+
+#: ../app/RulerBMI.qml:226
+msgid ""
+"Very severely\n"
+"underweight"
+msgstr ""
+"En insuffisance pondérale\n"
+"très sévère"
+
+#: ../app/RulerBMI.qml:235
+msgid ""
+"Severely\n"
+"Underweight"
+msgstr ""
+"En insuffisance \n"
+"pondérale sévère"
+
+#: ../app/RulerBMI.qml:244
+msgid "Underweight"
+msgstr "En insuffisance pondérale"
+
+#: ../app/RulerBMI.qml:253
+msgid "Normal"
+msgstr "Normal"
+
+#: ../app/RulerBMI.qml:262
+msgid "Overweight"
+msgstr "En surcharge pondérale"
+
+#: ../app/RulerBMI.qml:271
+msgid ""
+"Obese\n"
+"Class I"
+msgstr ""
+"Obèsité de \n"
+"Classe I"
+
+#: ../app/RulerBMI.qml:273
+msgid ""
+"Obese\n"
+"Class II"
+msgstr ""
+"Obèsité de \n"
+"Classe II"
+
+#: ../app/RulerBMI.qml:275
+msgid ""
+"Obese\n"
+"Class III"
+msgstr ""
+"Obèsité de \n"
+"Classe III"
+
+#: /home/avi/qt/ubuntu-touch/build-bmicalc-Desktop-Default/po/bmiCalc.desktop.in.h:1
+msgid "Body Status"
+msgstr "Condition du corps"
+
+#: /home/avi/qt/ubuntu-touch/build-bmicalc-Desktop-Default/po/bmiCalc.desktop.in.h:2
+msgid ""
+"Body Status is a weight calculators, including BMI Calculator, and Body Fat "
+"percentage."
+msgstr ""
+"La condition du corps est déterminée par des calculs sur le poids, comprenant le calcul de l'IMC et du pourcentage "
+"de masse adipeuse."
