@@ -1,0 +1,6 @@
+{
+  "name": "Bmicalc",
+  "tagline": "Body Status for Ubuntu Touch",
+  "body": "#Body Status\r\n![GitHub release](https://img.shields.io/github/tag/avi-software/bmicalc.svg?style=flat-square)\r\n![GitHub stars](https://img.shields.io/github/stars/avi-software/bmicalc.svg?style=flat-square)\r\n![GitHub issues](https://img.shields.io/github/issues/avi-software/bmicalc.svg?style=flat-square)\r\n![GitHub license](https://img.shields.io/github/license/avi-software/bmicalc.svg?style=flat-square)\r\n\r\n\r\n##Description\r\n**Body Status** is a weight calculators, including BMI Calculator, and Body Fat percentage.\r\n###Body Fat Percentage\r\nCalculate your Body Fat %.  \r\nBody Fat Calculator uses the U.S. Navy fitness formula to get an estimated measuring of body fat percent.\r\n###BMI calculator\r\nCalculate your BMI (Body Mass Index).  \r\nBMI is a good way to check if you're underweight, in good weight or overweight.\r\n\r\nIt is written QML by QT. For **Ubuntu Touch**\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
