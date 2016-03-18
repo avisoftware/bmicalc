@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-16 13:02+0200\n"
+"POT-Creation-Date: 2016-03-18 13:40+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -209,11 +209,11 @@ msgid ""
 "Class III"
 msgstr ""
 
-#: /home/avi/qt/build-bmicalc-UbuntuSDK_for_i386_GCC_ubuntu_sdk_15_04_vivid_be36f9-Default/po/bmiCalc.desktop.in.h:1
+#: /home/avi/qt/ubuntu-touch/build-bmicalc-Ubuntu_SDK_Desktop_Kit-Default/po/bmiCalc.desktop.in.h:1
 msgid "Body Status"
 msgstr ""
 
-#: /home/avi/qt/build-bmicalc-UbuntuSDK_for_i386_GCC_ubuntu_sdk_15_04_vivid_be36f9-Default/po/bmiCalc.desktop.in.h:2
+#: /home/avi/qt/ubuntu-touch/build-bmicalc-Ubuntu_SDK_Desktop_Kit-Default/po/bmiCalc.desktop.in.h:2
 msgid ""
 "Body Status is a weight calculators, including BMI Calculator, and Body Fat "
 "percentage."
