@@ -19,7 +19,7 @@ MainView {
     Component.onCompleted: {
         pageStack.push(tabs)
         var component = Qt.createQmlObject(
-                    'import QtQuick 2.0; Rectangle { anchors.fill: parent; z: -1; color: "#00a132"; }',
+                    'import QtQuick 2.0; Rectangle { anchors.fill: parent; z: -10; color: "#00a132"; }',
                     pageStack.header);
     }
     PageStack {
