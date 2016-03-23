@@ -3,6 +3,7 @@ import Ubuntu.Components 1.2
 Item {
     property var arrBmi: [0,1.0,true]
     property int xLoc: 0;
+    property bool  isClicked: false;
     anchors{
         left: parent.left
         right:parent.right
@@ -10,7 +11,6 @@ Item {
     width: parent.width
     height: units.gu(15)
     clip : true
-
     UbuntuShape {
         id: bmiIcon
         anchors.bottom: line.top
@@ -21,6 +21,7 @@ Item {
         visible:false
         backgroundColor: Theme.palette.normal.foreground
         radius: "small"
+
         Column{
             anchors.fill: parent
             Label {
@@ -66,6 +67,7 @@ Item {
         MouseArea{
             anchors.fill: parent
             onClicked: {
+                isClicked =true;
                 changeXloc(mouseY)
             }
         }
@@ -192,12 +194,16 @@ arrBmi = [girl][age 2-20][underweight][normal][obese]
 
         if(a<arrBmi[gender][age-2][0]){
             drawUnderweight();
+            setTipToNormalBmi(arrBmi[gender][age-2][0]);
         }else if(a>arrBmi[gender][age-2][0]&&a<arrBmi[gender][age-2][1]){
             drawNormal();
+            setTipToNormalBmi(0);
         }else if(a>arrBmi[gender][age-2][1]&&a<arrBmi[gender][age-2][2]){
             drawOverweight();
+            setTipToNormalBmi(arrBmi[gender][age-2][1]);
         }else if(a>arrBmi[gender][age-2][2]){
             drawObese(0);
+            setTipToNormalBmi(arrBmi[gender][age-2][1]);
         }
         kidsGradient.arrData=arrBmi[gender][age-2];
     }
@@ -205,23 +211,39 @@ arrBmi = [girl][age 2-20][underweight][normal][obese]
     function setAdultValues(bmi){
         if(bmi<15){
             drawVerySeverelyUnderweight();
+            setTipToNormalBmi(18.5);
         }else if(bmi>15&&bmi<16){
             drawSeverelyUnderweight();
+             setTipToNormalBmi(18.5);
         }else if(bmi>16&&bmi<18.5){
             drawUnderweight();
+             setTipToNormalBmi(18.5);
         }else if(bmi>18.5&&bmi<25){
             drawNormal();
+            setTipToNormalBmi(0);
         }else if(bmi>25&&bmi<30){
             drawOverweight();
+            setTipToNormalBmi(25);
         }else if(bmi>30&&bmi<35){
             drawObeseClassI();
+             setTipToNormalBmi(25);
         }else if(bmi>35&&bmi<40){
             drawObeseClassII();
+             setTipToNormalBmi(25);
         }else if(bmi>40){
             drawObeseClassIII();
+             setTipToNormalBmi(25);
         }
 
     }
+    function setTipToNormalBmi(n_bmi){
+        if(n_bmi>0&&isClicked===false){
+        parent.setTipBmi( n_bmi);
+        }else{
+            parent.setTipBmi(0);
+        }
+    }
+
     function drawVerySeverelyUnderweight(){
         bmiS.text= i18n.tr("Very severely\nunderweight");
         bmiIcon.backgroundColor=UbuntuColors.red;

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-18 13:40+0200\n"
+"POT-Creation-Date: 2016-03-23 10:53+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,8 +53,20 @@ msgstr ""
 msgid "Weight"
 msgstr ""
 
-#: ../app/BmiView.qml:106 ../app/BodyFatUsNavyView.qml:234
+#: ../app/BmiView.qml:107 ../app/BodyFatUsNavyView.qml:234
 msgid "Calculate"
+msgstr ""
+
+#: ../app/BmiView.qml:157
+msgid "<b>increase</b> your weight about"
+msgstr ""
+
+#: ../app/BmiView.qml:159
+msgid "<b>reduce</b> your weight about"
+msgstr ""
+
+#: ../app/BmiView.qml:169
+msgid "If you want to be in the right weight for you,<br/> you should"
 msgstr ""
 
 #: ../app/BodyFatUsNavyView.qml:7
@@ -115,7 +127,7 @@ msgstr ""
 msgid "Acceptable"
 msgstr ""
 
-#: ../app/BodyFatUsNavyView.qml:274 ../app/RulerBMI.qml:277
+#: ../app/BodyFatUsNavyView.qml:274 ../app/RulerBMI.qml:299
 msgid "Obese"
 msgstr ""
 
@@ -167,53 +179,53 @@ msgid ""
 "Body_fat_percentage'>(See also: Wikipedia)</a>"
 msgstr ""
 
-#: ../app/RulerBMI.qml:226
+#: ../app/RulerBMI.qml:248
 msgid ""
 "Very severely\n"
 "underweight"
 msgstr ""
 
-#: ../app/RulerBMI.qml:235
+#: ../app/RulerBMI.qml:257
 msgid ""
 "Severely\n"
 "Underweight"
 msgstr ""
 
-#: ../app/RulerBMI.qml:244
+#: ../app/RulerBMI.qml:266
 msgid "Underweight"
 msgstr ""
 
-#: ../app/RulerBMI.qml:253
+#: ../app/RulerBMI.qml:275
 msgid "Normal"
 msgstr ""
 
-#: ../app/RulerBMI.qml:262
+#: ../app/RulerBMI.qml:284
 msgid "Overweight"
 msgstr ""
 
-#: ../app/RulerBMI.qml:271
+#: ../app/RulerBMI.qml:293
 msgid ""
 "Obese\n"
 "Class I"
 msgstr ""
 
-#: ../app/RulerBMI.qml:273
+#: ../app/RulerBMI.qml:295
 msgid ""
 "Obese\n"
 "Class II"
 msgstr ""
 
-#: ../app/RulerBMI.qml:275
+#: ../app/RulerBMI.qml:297
 msgid ""
 "Obese\n"
 "Class III"
 msgstr ""
 
-#: /home/avi/qt/ubuntu-touch/build-bmicalc-Ubuntu_SDK_Desktop_Kit-Default/po/bmiCalc.desktop.in.h:1
+#: /home/avi/qt/ubuntu-touch/bmicalc-build/po/bmiCalc.desktop.in.h:1
 msgid "Body Status"
 msgstr ""
 
-#: /home/avi/qt/ubuntu-touch/build-bmicalc-Ubuntu_SDK_Desktop_Kit-Default/po/bmiCalc.desktop.in.h:2
+#: /home/avi/qt/ubuntu-touch/bmicalc-build/po/bmiCalc.desktop.in.h:2
 msgid ""
 "Body Status is a weight calculators, including BMI Calculator, and Body Fat "
 "percentage."

@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import Ubuntu.Components 1.1
+import Ubuntu.Components 1.2
 Page {
     id: mainPage
     title: i18n.tr("BMI Calculator")
@@ -102,6 +102,7 @@ Page {
             }
         }
         Button {
+            id: calcButton
             objectName: "button"
             text: i18n.tr("Calculate")
             anchors.horizontalCenter: parent.horizontalCenter
@@ -119,6 +120,7 @@ Page {
                     }
                     bmiOutput = ((weight / (height * height))*inc).toFixed(2);
                     age = Number(ageTextField.text)
+                    bmiRuler.isClicked=false;
                     bmiRuler.arrBmi =[age,bmiOutput,!genderSwitch.on];
                     bmiRuler.visible=true;
                     return ;
@@ -126,10 +128,108 @@ Page {
                 return ;
             }
         }
+
         RulerBMI{
             id:bmiRuler
             visible: false;
+            onWidthChanged:{
+                calcButton.getBmi(kgOrLbSwitch.on,parseFloat(heightTextField.text),parseFloat(weightTextFiled.text));
+            }
             Behavior on visible {NumberAnimation{properties: "opacity";from:0;to:1;easing.type: Easing.InOutQuad; duration: 400 }}
         }
+        UbuntuShape{
+            id: tipShape
+            width: (parent.width)
+            height: units.gu(10)
+            backgroundColor: "#Fb00a132"
+            radius: "small"
+            aspect: UbuntuShape.Flat
+            visible: false;
+
+            Column{
+                anchors.centerIn: parent
+                Label {
+                    id: tipLable
+                    property int underOrOver: 0;
+                    property string downOrUp: {
+                        if(underOrOver ===1){
+                            return i18n.tr("<b>increase</b> your weight about");
+                        }else if(underOrOver ===2){
+                            return i18n.tr("<b>reduce</b> your weight about");
+                        }else{
+                            return "";
+                        }
+                    }
+                    width: tipShape.width
+                    horizontalAlignment:Text.AlignHCenter
+                    wrapMode :Text.WordWrap
+                    anchors.topMargin: units.gu(1)
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    text:i18n.tr( "If you want to be in the right weight for you,<br/> you should")+" " +downOrUp
+                    fontSize: "medium"
+                    color: Theme.palette.normal.foregroundText
+                }
+                Label {
+                    id: numTipLable
+                    anchors.topMargin: units.gu(1)
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    text:""
+                    fontSize: "large"
+                    color: Theme.palette.normal.foregroundText
+                }
+            }
+            UbuntuShape{
+                width: 25
+                height: 25
+                backgroundColor: "#Fb00a132"
+                radius: "small"
+                aspect: UbuntuShape.Flat
+                anchors {
+                    left: parent.left
+                    top: parent.top
+                    leftMargin: units.gu(-1.5)
+                    topMargin: units.gu(-1.5)
+                }
+                    Icon {
+                        width: 24
+                        height: 24
+                        name: "info"
+                        color:Theme.palette.normal.foregroundText
+                        anchors.fill: parent
+                    }
+                }
+
+                Behavior on visible {NumberAnimation{properties: "opacity";from:0;to:1;easing.type: Easing.InOutQuad; duration: 400 }}
+            }
+
+            function setTipBmi(n_bmi){
+                if(n_bmi!==0){
+                    var n=0;
+                    var h =parseFloat(heightTextField.text);
+                    var w =parseFloat(weightTextFiled.text);
+                    var lib =kgOrLbSwitch.on;
+                    var inc =1;
+                    var kgOrLib= "";
+                    if (lib){
+                        inc =703;
+                        kgOrLib ="Lb"
+                    }else{
+                        h = h /100;
+                        kgOrLib ="Kg"
+                    }
+                    n= w-((h*h)*(n_bmi/inc))
+                    if(n<0){
+                        tipLable.underOrOver =1;//mean underwhight
+                        n = n*-1;
+                    }else{
+                        tipLable.underOrOver =2;//mean overwhight
+                    }
+
+                    numTipLable.text = n.toFixed(0) + " "+kgOrLib;
+                    tipShape.visible=true;
+                }else{
+                    tipShape.visible=false;
+                }
+            }
+        }
     }
-}
