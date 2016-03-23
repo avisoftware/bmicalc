@@ -59,15 +59,15 @@ msgstr "Calculer"
 
 #: ../app/BmiView.qml:157
 msgid "<b>increase</b> your weight about"
-msgstr ""
+msgstr "<b>augmenter</b> votre poids d'environ"
 
 #: ../app/BmiView.qml:159
 msgid "<b>reduce</b> your weight about"
-msgstr ""
+msgstr "<b>réduire</b> votre poids d'environ"
 
 #: ../app/BmiView.qml:169
 msgid "If you want to be in the right weight for you,<br/> you should"
-msgstr ""
+msgstr "Si vous souhaitez avoir un poids correct,<br/> vous devriez"
 
 #: ../app/BodyFatUsNavyView.qml:7
 msgid "Body Fat Calculator"
