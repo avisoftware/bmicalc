@@ -143,7 +143,7 @@ Page {
             height: units.gu(10)
             backgroundColor: "#Fb00a132"
             radius: "small"
-            aspect: UbuntuShape.Flat
+            //aspect: UbuntuShape.Flat
             visible: false;
 
             Column{
@@ -183,7 +183,7 @@ Page {
                 height: 25
                 backgroundColor: "#Fb00a132"
                 radius: "small"
-                aspect: UbuntuShape.Flat
+                //aspect: UbuntuShape.Flat
                 anchors {
                     left: parent.left
                     top: parent.top

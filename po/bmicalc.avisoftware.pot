@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-23 10:53+0200\n"
+"POT-Creation-Date: 2016-03-23 12:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,15 +57,15 @@ msgstr ""
 msgid "Calculate"
 msgstr ""
 
-#: ../app/BmiView.qml:157
+#: ../app/BmiView.qml:156
 msgid "<b>increase</b> your weight about"
 msgstr ""
 
-#: ../app/BmiView.qml:159
+#: ../app/BmiView.qml:158
 msgid "<b>reduce</b> your weight about"
 msgstr ""
 
-#: ../app/BmiView.qml:169
+#: ../app/BmiView.qml:168
 msgid "If you want to be in the right weight for you,<br/> you should"
 msgstr ""
 
@@ -221,11 +221,11 @@ msgid ""
 "Class III"
 msgstr ""
 
-#: /home/avi/qt/ubuntu-touch/bmicalc-build/po/bmiCalc.desktop.in.h:1
+#: /home/avi/qt/ubuntu-touch/build-bmicalc-UbuntuSDK_for_i386_GCC_ubuntu_sdk_15_04_vivid_be36f9-Default/po/bmiCalc.desktop.in.h:1
 msgid "Body Status"
 msgstr ""
 
-#: /home/avi/qt/ubuntu-touch/bmicalc-build/po/bmiCalc.desktop.in.h:2
+#: /home/avi/qt/ubuntu-touch/build-bmicalc-UbuntuSDK_for_i386_GCC_ubuntu_sdk_15_04_vivid_be36f9-Default/po/bmiCalc.desktop.in.h:2
 msgid ""
 "Body Status is a weight calculators, including BMI Calculator, and Body Fat "
 "percentage."
