@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# avi <avisoftware123@gmail.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-28 10:01+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2016-03-23 10:53+0200\n"
+"PO-Revision-Date: 2016-03-23 11:03+0300\n"
+"Last-Translator: avi <avisoftware123@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
 
 #: ../app/BmiView.qml:5 ../app/Main.qml:58
 msgid "BMI Calculator"
@@ -53,9 +53,21 @@ msgstr "PO/LB"
 msgid "Weight"
 msgstr "Masse"
 
-#: ../app/BmiView.qml:106 ../app/BodyFatUsNavyView.qml:234
+#: ../app/BmiView.qml:107 ../app/BodyFatUsNavyView.qml:234
 msgid "Calculate"
 msgstr "Calculer"
+
+#: ../app/BmiView.qml:157
+msgid "<b>increase</b> your weight about"
+msgstr ""
+
+#: ../app/BmiView.qml:159
+msgid "<b>reduce</b> your weight about"
+msgstr ""
+
+#: ../app/BmiView.qml:169
+msgid "If you want to be in the right weight for you,<br/> you should"
+msgstr ""
 
 #: ../app/BodyFatUsNavyView.qml:7
 msgid "Body Fat Calculator"
@@ -125,7 +137,7 @@ msgstr "En forme"
 msgid "Acceptable"
 msgstr "Acceptable"
 
-#: ../app/BodyFatUsNavyView.qml:274 ../app/RulerBMI.qml:277
+#: ../app/BodyFatUsNavyView.qml:274 ../app/RulerBMI.qml:299
 msgid "Obese"
 msgstr "Obèse"
 
@@ -165,25 +177,27 @@ msgid ""
 "Body_mass_index'>(See: Wikipedia)</a>"
 msgstr ""
 "<h3>Indice de masse corporelle (IMC)</h3>\n"
-"                             L'indice de masse corporelle (IMC) est une valeur obtenue "
-"à partir de la masse (poids) et de la taille d'un individu.\n"
-"                             L'IMC est une tentative de quantification de la masse "
-"tissulaire (muscle, graisse et os) chez un individu,\n"
+"                             L'indice de masse corporelle (IMC) est une "
+"valeur obtenue à partir de la masse (poids) et de la taille d'un individu.\n"
+"                             L'IMC est une tentative de quantification de la "
+"masse tissulaire (muscle, graisse et os) chez un individu,\n"
 "                             puis une catégorisation de cette personne en "
 "insuffisance pondérale,\n"
-"                             en poids normal, en surcharge pondérale ou en obésité en fonction "
-"de cette valeur.\n"
-"                             <h4>IMC chez les enfants (âgés de 2 à 20 ans)</h4>\n"
-"                             L'IMC est utilisé différemment pour les enfants. Il est "
-"calculé de la même manière que chez les adultes,\n"
-"                             mais est ensuite comparé aux valeurs classiques des autres "
-"enfants du même âge.\n"
-"                             À la place d'une comparaison avec des seuils fixes "
-"d'insuffisance ou de surcharge pondérale,\n"
+"                             en poids normal, en surcharge pondérale ou en "
+"obésité en fonction de cette valeur.\n"
+"                             <h4>IMC chez les enfants (âgés de 2 à 20 "
+"ans)</h4>\n"
+"                             L'IMC est utilisé différemment pour les "
+"enfants. Il est calculé de la même manière que chez les adultes,\n"
+"                             mais est ensuite comparé aux valeurs classiques "
+"des autres enfants du même âge.\n"
+"                             À la place d'une comparaison avec des seuils "
+"fixes d'insuffisance ou de surcharge pondérale,\n"
 "                             l'IMC est comparé avec le pourcentile des "
 "enfants du même sexe et du même âge.\n"
-"                             <br><a href='https://fr.wikipedia.org/wiki/"
-"Indice_de_masse_corporelle'>(Voir[nbsp]: Wikipédia)</a>"
+"                             <br><a "
+"href='https://fr.wikipedia.org/wiki/Indice_de_masse_corporelle'>(Voir[nbsp]: "
+"Wikipédia)</a>"
 
 #: ../app/InformationView.qml:37
 msgid ""
@@ -197,15 +211,19 @@ msgid ""
 "Body_fat_percentage'>(See also: Wikipedia)</a>"
 msgstr ""
 "<h3>Pourcentage de masse adipeuse</h3>\n"
-"                             Ce calculateur de masse adipeuse utilise la formule de "
-"santé de l'US Navy pour obtenir une estimation de la mesure du pourcentage de masse adipeuse.\n"
-"                             Tout ce dont vous avez besoin est d'un ruban de mesure.\n"
-"                             <br><b>ATTENTION[nbsp]:</b> Ceci ne représente pas une mesure "
-"précise de la <b>masse adipeuse</b>. Il s'agit juste d'une estimation.\n"
-"                             <br><a href='https://fr.wikipedia.org/wiki/"
-"Indice_de_masse_corporelle'>(Voir également[nbsp]: Wikipédia)</a>"
+"                             Ce calculateur de masse adipeuse utilise la "
+"formule de santé de l'US Navy pour obtenir une estimation de la mesure du "
+"pourcentage de masse adipeuse.\n"
+"                             Tout ce dont vous avez besoin est d'un ruban de "
+"mesure.\n"
+"                             <br><b>ATTENTION[nbsp]:</b> Ceci ne représente "
+"pas une mesure précise de la <b>masse adipeuse</b>. Il s'agit juste d'une "
+"estimation.\n"
+"                             <br><a "
+"href='https://fr.wikipedia.org/wiki/Indice_de_masse_corporelle'>(Voir "
+"également[nbsp]: Wikipédia)</a>"
 
-#: ../app/RulerBMI.qml:226
+#: ../app/RulerBMI.qml:248
 msgid ""
 "Very severely\n"
 "underweight"
@@ -213,7 +231,7 @@ msgstr ""
 "En insuffisance pondérale\n"
 "très sévère"
 
-#: ../app/RulerBMI.qml:235
+#: ../app/RulerBMI.qml:257
 msgid ""
 "Severely\n"
 "Underweight"
@@ -221,19 +239,19 @@ msgstr ""
 "En insuffisance \n"
 "pondérale sévère"
 
-#: ../app/RulerBMI.qml:244
+#: ../app/RulerBMI.qml:266
 msgid "Underweight"
 msgstr "En insuffisance pondérale"
 
-#: ../app/RulerBMI.qml:253
+#: ../app/RulerBMI.qml:275
 msgid "Normal"
 msgstr "Normal"
 
-#: ../app/RulerBMI.qml:262
+#: ../app/RulerBMI.qml:284
 msgid "Overweight"
 msgstr "En surcharge pondérale"
 
-#: ../app/RulerBMI.qml:271
+#: ../app/RulerBMI.qml:293
 msgid ""
 "Obese\n"
 "Class I"
@@ -241,7 +259,7 @@ msgstr ""
 "Obèsité de \n"
 "Classe I"
 
-#: ../app/RulerBMI.qml:273
+#: ../app/RulerBMI.qml:295
 msgid ""
 "Obese\n"
 "Class II"
@@ -249,7 +267,7 @@ msgstr ""
 "Obèsité de \n"
 "Classe II"
 
-#: ../app/RulerBMI.qml:275
+#: ../app/RulerBMI.qml:297
 msgid ""
 "Obese\n"
 "Class III"
@@ -257,14 +275,14 @@ msgstr ""
 "Obèsité de \n"
 "Classe III"
 
-#: /home/avi/qt/ubuntu-touch/build-bmicalc-Desktop-Default/po/bmiCalc.desktop.in.h:1
+#: /home/avi/qt/ubuntu-touch/bmicalc-build/po/bmiCalc.desktop.in.h:1
 msgid "Body Status"
 msgstr "Condition du corps"
 
-#: /home/avi/qt/ubuntu-touch/build-bmicalc-Desktop-Default/po/bmiCalc.desktop.in.h:2
+#: /home/avi/qt/ubuntu-touch/bmicalc-build/po/bmiCalc.desktop.in.h:2
 msgid ""
 "Body Status is a weight calculators, including BMI Calculator, and Body Fat "
 "percentage."
 msgstr ""
-"La condition du corps est déterminée par des calculs sur le poids, comprenant le calcul de l'IMC et du pourcentage "
-"de masse adipeuse."
+"La condition du corps est déterminée par des calculs sur le poids, "
+"comprenant le calcul de l'IMC et du pourcentage de masse adipeuse."

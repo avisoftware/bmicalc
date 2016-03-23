@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# avi <avisoftware123@gmail.com>, 2015.
+# avi <avisoftware123@gmail.com>, 2015, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-28 09:38+0300\n"
-"PO-Revision-Date: 2015-07-28 09:40+0300\n"
+"POT-Creation-Date: 2016-03-23 10:53+0200\n"
+"PO-Revision-Date: 2016-03-23 11:01+0300\n"
 "Last-Translator: avi <avisoftware123@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: he\n"
@@ -53,9 +53,21 @@ msgstr "אינ/ליב"
 msgid "Weight"
 msgstr "משקל"
 
-#: ../app/BmiView.qml:106 ../app/BodyFatUsNavyView.qml:234
+#: ../app/BmiView.qml:107 ../app/BodyFatUsNavyView.qml:234
 msgid "Calculate"
 msgstr "חשב"
+
+#: ../app/BmiView.qml:157
+msgid "<b>increase</b> your weight about"
+msgstr "<b>להעלות</b> במשקלך בערך"
+
+#: ../app/BmiView.qml:159
+msgid "<b>reduce</b> your weight about"
+msgstr "<b>להפחית</b> ממשקלך בערך"
+
+#: ../app/BmiView.qml:169
+msgid "If you want to be in the right weight for you,<br/> you should"
+msgstr "אם אתה רוצה להיות במשקל הנכון עבורך,<br/> אתה צריך"
 
 #: ../app/BodyFatUsNavyView.qml:7
 msgid "Body Fat Calculator"
@@ -124,19 +136,19 @@ msgstr "מתאים"
 msgid "Acceptable"
 msgstr "מתקבל"
 
-#: ../app/BodyFatUsNavyView.qml:274 ../app/RulerBMI.qml:277
+#: ../app/BodyFatUsNavyView.qml:274 ../app/RulerBMI.qml:299
 msgid "Obese"
 msgstr "השמנת יתר"
 
-#: ../app/BodyFatUsNavyView.qml:323 ../app/Main.qml:66
+#: ../app/BodyFatUsNavyView.qml:327 ../app/Main.qml:66
 msgid "Body Fat %"
 msgstr "אחוז שומן בגוף"
 
-#: ../app/BodyFatUsNavyView.qml:355
+#: ../app/BodyFatUsNavyView.qml:361
 msgid "Fat Mass"
 msgstr "מסת שומן"
 
-#: ../app/BodyFatUsNavyView.qml:379
+#: ../app/BodyFatUsNavyView.qml:387
 msgid "Lean Mass"
 msgstr "מסה רזה"
 
@@ -178,9 +190,8 @@ msgstr ""
 "מאותו גיל. במקום להשוות כנגד טווח ערכים קבוע עבור תת משקל ועודף משקל,\n"
 "                             הBMI מושווה כנגד האחוזון של הילדים מאותו גיל "
 "ומאותו מגדר.\n"
-"                             <br><a href='https://he.wikipedia.org/wiki/"
-"%D7%9E%D7%93%D7%93_%D7%9E%D7%A1%D7%AA_%D7%92%D7%95%D7%A3'>(ראה: וויקיפדיה)</"
-"a>"
+"                             <br><a href='https://he.wikipedia.org/wiki/%D7%9"
+"E%D7%93%D7%93_%D7%9E%D7%A1%D7%AA_%D7%92%D7%95%D7%A3'>(ראה: וויקיפדיה)</a>"
 
 #: ../app/InformationView.qml:37
 msgid ""
@@ -200,10 +211,11 @@ msgstr ""
 "\n"
 "                            <br><b>שים לב:</b> זה לא מציג מידה מדוייקת של  "
 "<b>שומן בגוף</b>. זה רק הערכה\n"
-"                             <br><a href='https://en.wikipedia.org/wiki/"
-"Body_fat_percentage'>(ראה גם: ויקיפדיה-אנגלית)</a>"
+"                             <br><a "
+"href='https://en.wikipedia.org/wiki/Body_fat_percentage'>(ראה גם: "
+"ויקיפדיה-אנגלית)</a>"
 
-#: ../app/RulerBMI.qml:226
+#: ../app/RulerBMI.qml:248
 msgid ""
 "Very severely\n"
 "underweight"
@@ -211,7 +223,7 @@ msgstr ""
 "תת משקל\n"
 "חמור מאוד"
 
-#: ../app/RulerBMI.qml:235
+#: ../app/RulerBMI.qml:257
 msgid ""
 "Severely\n"
 "Underweight"
@@ -219,19 +231,19 @@ msgstr ""
 "תת משקל\n"
 "חמור"
 
-#: ../app/RulerBMI.qml:244
+#: ../app/RulerBMI.qml:266
 msgid "Underweight"
 msgstr "תת משקל"
 
-#: ../app/RulerBMI.qml:253
+#: ../app/RulerBMI.qml:275
 msgid "Normal"
 msgstr "תקין"
 
-#: ../app/RulerBMI.qml:262
+#: ../app/RulerBMI.qml:284
 msgid "Overweight"
 msgstr "עודף משקל"
 
-#: ../app/RulerBMI.qml:271
+#: ../app/RulerBMI.qml:293
 msgid ""
 "Obese\n"
 "Class I"
@@ -239,7 +251,7 @@ msgstr ""
 "השמנת יתר\n"
 "דרגה 1"
 
-#: ../app/RulerBMI.qml:273
+#: ../app/RulerBMI.qml:295
 msgid ""
 "Obese\n"
 "Class II"
@@ -247,7 +259,7 @@ msgstr ""
 "השמנת יתר\n"
 "דרגה 2"
 
-#: ../app/RulerBMI.qml:275
+#: ../app/RulerBMI.qml:297
 msgid ""
 "Obese\n"
 "Class III"
@@ -255,11 +267,11 @@ msgstr ""
 "השמנת יתר\n"
 "דרגה 3"
 
-#: /home/avi/qt/ubuntu-touch/build-bmicalc-CleanI386_GCC_i386_ubuntu_sdk_15_04_vivid-Default/po/bmiCalc.desktop.in.h:1
+#: /home/avi/qt/ubuntu-touch/bmicalc-build/po/bmiCalc.desktop.in.h:1
 msgid "Body Status"
 msgstr "Body Status"
 
-#: /home/avi/qt/ubuntu-touch/build-bmicalc-CleanI386_GCC_i386_ubuntu_sdk_15_04_vivid-Default/po/bmiCalc.desktop.in.h:2
+#: /home/avi/qt/ubuntu-touch/bmicalc-build/po/bmiCalc.desktop.in.h:2
 msgid ""
 "Body Status is a weight calculators, including BMI Calculator, and Body Fat "
 "percentage."
