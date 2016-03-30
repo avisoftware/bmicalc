@@ -2,11 +2,11 @@ before_install:
   - sudo add-apt-repository ppa:ubuntu-sdk-team/ppa -y
 install:
   - sudo apt-get update -qq
-  - sudo apt-get install aptitude
-  - sudo aptitude install ubuntu-sdk -y
+  - sudo apt-get -f install
+  - sudo apt-get install ubuntu-sdk -y
 script:
   - mkdir mkdir ../bmicalc-build
-  - cd cd ../bmicalc-build
+  - cd ../bmicalc-build
   - cmake ../bmicalc
   - make
   - make DESTDIR=../bmicalc-build/.ubuntu-sdk-deploy install
