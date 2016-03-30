@@ -3,7 +3,7 @@ before_install:
 install:
   - sudo apt-get update -qq
   - sudo apt-get install aptitude
-  - sudo aptitude install ubuntu-sdk
+  - sudo aptitude install ubuntu-sdk -y
 script:
   - mkdir mkdir ../bmicalc-build
   - cd cd ../bmicalc-build
