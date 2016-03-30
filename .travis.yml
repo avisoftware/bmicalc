@@ -1,8 +1,9 @@
-before_install:
-  - sudo add-apt-repository ppa:ubuntu-sdk-team/ppa -y
-install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y ubuntu-sdk
+addons:
+  apt:
+    sources:
+     - ubuntu-sdk-team
+    packages:
+      - ubuntu-sdk
 
 script:
   - mkdir mkdir ../bmicalc-build
